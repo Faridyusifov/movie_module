@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_content">
+                <a href="index.html" class="header_logo">
+                    Site <span>Logo</span>
+                </a>
+                <div class="search">
+                    <div class="search_content">
+                        <input type="search" class="input" id="search" placeholder="Search film...">
+                        <button class="search_btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Search" width="13" height="13" viewBox="0 0 13 13">
+                                <path id="Path_2" data-name="Path 2" d="M1.625,5.688A4.023,4.023,0,0,1,5.688,1.625,4.023,4.023,0,0,1,9.75,5.688,4.023,4.023,0,0,1,5.688,9.75,4.023,4.023,0,0,1,1.625,5.688Zm9.994,7.069a.8.8,0,0,0,1.137-1.137L10.238,9.1a5.563,5.563,0,0,0,1.137-3.413A5.652,5.652,0,0,0,5.688,0,5.652,5.652,0,0,0,0,5.688a5.652,5.652,0,0,0,5.688,5.688A5.563,5.563,0,0,0,9.1,10.238Z" fill="#000"/>
+                              </svg>
+                        </button>
+                    </div>
+                </div>
+                <ul class="navbar">
+                    <li class="navbar_item">
+                        <a href="#" class="navbar_item_link">
+                            Movies
+                        </a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#" class="navbar_item_link">
+                            Series
+                        </a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#" class="navbar_item_link">
+                            Kids
+                        </a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="create.html" class="btn create_btn">
+                            Create Film
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="createSection">
+        <div class="container">
+            <div class="section_header">
+                <h1 class="section_header_head">
+                    Create film
+                </h1>
+            </div>
+            <div class="createSection_content">
+                <form action="#" class="createSection_form" id="createSection_form">
+                    <div class="form_group">
+                        <label for="title" class="form_group_label">Title:</label>
+                        <input type="text" class="form_group_input input" name="title" id="title" placeholder="Title">
+                    </div>
+                    <div class="form_group">
+                        <label for="desc" class="form_group_label">Description:</label>
+                        <input type="text" class="form_group_input input" name="desc" id="desc" placeholder="Description">
+                    </div>
+                    <div class="form_group">
+                        <label for="year" class="form_group_label">Year:</label>
+                        <input type="text" class="form_group_input input" name="year" id="year" placeholder="Year">
+                    </div>
+                    <div class="form_group">
+                        <label for="imdb_link" class="form_group_label">IMDB link:</label>
+                        <input type="text" class="form_group_input input" name="imdb_link" id="imdb_link" placeholder="IMDB link">
+                    </div>
+                    <div class="form_group">
+                        <label for="image_link" class="form_group_label">Image link:</label>
+                        <input type="text" class="form_group_input input" name="image_link" id="image_link" placeholder="Image link">
+                    </div>
+                    <div class="form_group">
+                        <label for="category" class="form_group_label">Category:</label>
+                        <input type="text" class="form_group_input input" name="category" id="category" placeholder="Category">
+                    </div>
+                    <div class="form_group form_button">
+                        <button type="submit" class="btn seeMore_btn">
+                            Save
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- <script src="main.js"></script> -->
+    <script src="createFilm.js"></script>
+</body>
+</html>

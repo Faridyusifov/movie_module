@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+    font-family: cursive;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.box_item{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.pd_t100{
+    padding-top: 100%;
+}
+.pd_t150{
+    padding-top: 150%;
+}
+
+/* Header section */
+
+.header{
+    padding: 20px 0;
+}
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo{
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.header_logo span{
+    color: #2fa689;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar_item_link{
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.navbar_item_link:hover{
+    color: #00c9ff;
+}
+
+
+.section_header{
+    padding-bottom: 30px;
+}
+.section_header_head{
+    font-size: 32px;
+}
+
+.btn{
+    background-color: #ffa500ad;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.create_btn{
+    background-color: #ffa500ad;
+}
+.seeMore_btn{
+    background-color: #00ff9059;
+    
+}
+
+
+.search{
+    width: 30%;
+}
+.search_content{
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.search_btn{
+    width: 42px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+}
+.input{
+    height: 42px;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    font-family: cursive;
+    color: #0003ff;
+}
+
+
+
+
+/* Movies Section */
+
+.movies{
+    padding: 30px 0;
+}
+.movies_content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px 20px;
+}
+.movies_content_item{
+    width: calc((100% - 60px) / 4);
+    position: relative;
+}
+.movies_content_item_image{
+    overflow: hidden;
+    border-radius: 10px;
+}
+.movies_content_item_image--img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+}
+
+.movies_content_item_title{
+    position: absolute;
+    bottom: 10px;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px;
+    z-index: 1;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(1, 1, 1, 1) 100%);
+    z-index: 0;
+}
+
+.movies_content_item:hover img{
+    transform: scale(1.3);
+}
+
+
+.seeMore{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+/* Film Inner Page */
+
+.moviesInner_content_image--img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.inner_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg,#000,rgba(0,0,0,.9) 30%,rgba(0,0,0,.7) 50%,hsla(0,0%,100%,0));
+    z-index: -1;
+}
+
+
+.moviesInner{
+    padding: 50px 0;
+}
+
+.filmTitle{
+    font-size: 52px;
+    padding-top: 30px;
+}
+
+.moviesInner_content_info_item{
+    margin-bottom: 30px;
+}
+.moviesInner_content_info_item_head{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.moviesInner_content_info_item_text{
+    font-size: 16px;
+}
+
+.moviesInner_content_buttons{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+/* Create Page */
+
+.createSection{
+    padding: 40px 0;
+}
+.createSection_form{
+    width: 60%;
+    margin: 30px auto;
+}
+
+.form_group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.form_button{
+    align-items: center;
+    padding-top: 20px;
+}
+.form_group_label{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.form_group_input{
+    color: #000;
+}
+
+
+
+
+
+/* Footer Section */
+
+
+.footer{
+    padding: 30px;
+}
+.footer_content{
+    text-align: center;
+}
+.footer_content_text{
+    font-size: 16px;
+}

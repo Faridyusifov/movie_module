@@ -1,0 +1,49 @@
+{
+  "movies": [
+    {
+      "title": "The Matrix",
+      "desc": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+      "year": "1999",
+      "imdbLink": "https://www.imdb.com/title/tt0133093/?ref_=hm_tpks_tt_i_4_pd_tp1_pbr_ic",
+      "imageLink": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+      "category": "Action ,Sci-Fi",
+      "id": 3
+    },
+    {
+      "title": "The Dark Knight",
+      "desc": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "year": "2008",
+      "imdbLink": "https://www.imdb.com/title/tt0468569/?ref_=hm_tpks_tt_i_5_pd_tp1_pbr_ic",
+      "imageLink": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "category": "Action ,Crime, Drama",
+      "id": 4
+    },
+    {
+      "title": "Oppenheimer",
+      "desc": "The story of American scientist, J. Robert Oppenheimer, and his role in the development of the atomic bomb.",
+      "year": "2023",
+      "imdbLink": "https://www.imdb.com/title/tt15398776/?ref_=hm_top_tt_i_1",
+      "imageLink": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "category": "Drama , History , Biography",
+      "id": 5
+    },
+    {
+      "title": "The Wolf of Wall Street",
+      "desc": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+      "year": "2013",
+      "imdbLink": "https://www.imdb.com/title/tt0993846/?ref_=hm_tpks_tt_i_6_pd_tp1_pbr_ic",
+      "imageLink": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "category": "Biography , Comedy , Crime",
+      "id": 6
+    },
+    {
+      "title": "The Lost Flowers of Alice Hart",
+      "desc": "Follows a young girl, Alice Hart, whose violent childhood casts a dark shadow over her adult life.",
+      "year": "2023",
+      "imdbLink": "https://www.imdb.com/title/tt9174718/?ref_=hm_stp_pvs_piv_tt_i_4",
+      "imageLink": "https://m.media-amazon.com/images/M/MV5BZTA2YTVhNWMtYjY0OC00MzQ2LTk4N2QtZDk4ZjIxZDFhMzk0XkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+      "category": "Drama",
+      "id": 7
+    }
+  ]
+}
